@@ -79,7 +79,7 @@ int main(int argc, char** argv)
     std::cout << "Renderer: " << glGetString(GL_RENDERER) << std::endl;
     std::cout << "OpenGL version: " << glGetString(GL_VERSION) << std::endl;
 
-    glClearColor(0, 1, 1, 1); // Color to clear window
+    glClearColor(0, 0, 0, 1); // Color to clear window
     
     { // limit the scope of visibility
         ResourceManager resourceManager(argv[0]);
